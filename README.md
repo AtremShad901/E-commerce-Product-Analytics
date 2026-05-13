@@ -63,11 +63,14 @@ product-analytics/
 
 **Клонируйте репозиторий**
 ```bash
-   git clone https://github.com/ArtemShad901/E-commerce-Product-Analytics.git
-   cd E-commerce-Product-Analytics
-   pip install -r requirements.txt
-   python scripts/data_download.py
-   jupyter notebook notebook/
+git clone https://github.com/ArtemShad901/E-commerce-Product-Analytics.git
+```
+```bash
+cd E-commerce-Product-Analytics
+pip install -r requirements.txt
+```
+```bash
+python src\scripts\data_donwload.py
 ```
 Порядок запуска ноутбуков: 
 `01_eda.ipynb` → `02_metrics_analysis.ipynb` → `03_cohort_analysis.ipynb` → `04_rfm.ipynb`
