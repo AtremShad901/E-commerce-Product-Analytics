@@ -46,7 +46,7 @@ product-analytics/
 ├── src/ # Python-модули
 │ ├── data_loader.py # Подключение к БД и загрузка таблиц
 │ ├── metrics.py # Расчёт продуктовых метрик
-│ ── utils.py # RFM-сегментация и вспомогательные функции
+│ └── utils.py # RFM-сегментация и вспомогательные функции
 ├── scripts/ # Скрипты автоматизации
 │ └── data_download.py # Загрузка данных с Google Drive
 ├── notebook/ # Jupyter-ноутбуки анализа
@@ -64,7 +64,7 @@ product-analytics/
 **Клонируйте репозиторий**
 ```bash
    git clone https://github.com/ArtemShad901/E-commerce-Product-Analytics.git
-   cd product-analytics
+   cd E-commerce-Product-Analytics
    pip install -r requirements.txt
    python scripts/data_download.py
    jupyter notebook notebook/
