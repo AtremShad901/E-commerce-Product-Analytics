@@ -63,7 +63,7 @@ product-analytics/
 
 **Клонируйте репозиторий**
 ```bash
-   git clone https://github.com/your-username/product-analytics.git
+   git clone https://github.com/ArtemShad901/E-commerce-Product-Analytics.git
    cd product-analytics
    pip install -r requirements.txt
    python scripts/data_download.py
