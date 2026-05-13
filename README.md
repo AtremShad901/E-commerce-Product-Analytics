@@ -32,7 +32,7 @@
 
 ---
 ##  Структура проекта
-
+```
 product-analytics/
 ├── data/ # Сырые и предобработанные данные
 │ ├── raw/ # Исходные CSV-файлы
@@ -58,7 +58,7 @@ product-analytics/
 │ ├── Product_Analytics_Report.md
 │ └── Product_Analytics_Report.pdf
 └── README.md
-
+```
 ## Запуск 
 
 **Клонируйте репозиторий**
